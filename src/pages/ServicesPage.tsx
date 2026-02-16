@@ -11,6 +11,8 @@ import {
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
+import A3 from '../../public/images/IMG-20260212-WA0042.jpg'
+
 const services = [
   {
     icon: Droplets,
@@ -40,7 +42,7 @@ const services = [
       'فحص الأمان الكهربائي'
     ],
     color: 'orange',
-    image: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80'
+    image: A3,
   },
   {
     icon: Settings,

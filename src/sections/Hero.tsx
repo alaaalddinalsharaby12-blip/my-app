@@ -72,7 +72,7 @@ export default function Hero() {
           {/* Subtitle */}
           <p className="animate-on-scroll opacity-0 text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto" style={{ animationDelay: '0.2s' }}>
             نقدم خدمات احترافية في مجال السباكة والكهرباء للمنازل والشركات.
-            فريقنا من الفنيين المعتمدين جاهز لخدمتكم على مدار 24 ساعة.
+            نقدم من الفنيين المعتمدين جاهز لخدمتكم على مدار 24 ساعة.
           </p>
 
           {/* CTA Buttons */}

@@ -41,7 +41,7 @@ const contactInfo = [
     icon: MapPin,
     title: "موقعنا",
     content: "جدة",
-    href: "#",
+    href: "https://maps.app.goo.gl/Le1hM2gc5Fvt2dHd9",
     description: "نغطي جميع أحياء جدة",
   },
 ];

@@ -11,6 +11,10 @@ import {
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
+import A1 from '../../public/images/IMG-20260212-WA0042.jpg'
+import A2 from '../../public/images/IMG-20260212-WA0048.jpg'
+
+
 const services = [
   {
     icon: Droplets,
@@ -18,7 +22,7 @@ const services = [
     description: "حلول شاملة لجميع مشاكل السباكة المنزلية والتجارية",
     features: ["إصلاح التسربات", "تركيب الأدوات الصحية", "تسليك المجاري", "صيانة السخانات"],
     color: "blue",
-    image: "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=600&q=80",
+    image: A2,
   },
   {
     icon: Zap,
@@ -26,7 +30,7 @@ const services = [
     description: "تركيب وصيانة كهربائية احترافية بأعلى معايير الأمان",
     features: ["تركيب الإضاءة", "إصلاح الأعطال", "تأسيس الكهرباء", "تركيب القواطع"],
     color: "orange",
-    image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+    image: A1,
   },
   {
     icon: Settings,

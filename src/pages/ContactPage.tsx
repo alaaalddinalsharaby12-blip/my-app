@@ -39,7 +39,7 @@ const contactInfo = [
     icon: MapPin,
     title: 'الموقع',
     content: 'جدة، المملكة العربية السعودية',
-    href: '#',
+    href: 'https://maps.app.goo.gl/Le1hM2gc5Fvt2dHd9',
     description: 'نغطي جميع الأحياء',
     color: 'green',
   },
@@ -261,7 +261,7 @@ export default function ContactPage() {
                   <h3 className="font-bold">دعم فني على مدار الساعة</h3>
                 </div>
                 <p className="text-white/80 text-sm mb-4">
-                  فريقنا جاهز لمساعدتك في أي وقت. لا تتردد في التواصل معنا.
+                   جاهز لمساعدتك في أي وقت. لا تتردد في التواصل معنا.
                 </p>
                 <a href="tel:0506880495">
                   <Button variant="secondary" className="w-full gap-2">

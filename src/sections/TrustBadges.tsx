@@ -16,7 +16,7 @@ const badges = [
   },
   {
     icon: Award,
-    title: 'خبرة 8+ سنة',
+    title: 'خبرة 9+ سنة',
     description: 'سنوات من الخبرة في المجال',
     color: 'purple',
   },
@@ -35,7 +35,7 @@ const badges = [
   {
     icon: BadgeCheck,
     title: 'فنيون معتمدون',
-    description: 'فريق محترف ومعتمد رسمياً',
+    description: 'عمل محترف ومعتمد رسمياً',
     color: 'blue',
   },
 ];

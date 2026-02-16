@@ -52,7 +52,7 @@ export default function Footer() {
             </button>
             <p className="text-gray-400 text-sm mb-6 leading-relaxed">
               نقدم خدمات احترافية في مجال السباكة والكهرباء للمنازل والشركات.
-              فريقنا من الفنيين المعتمدين جاهز لخدمتكم على مدار 24 ساعة.
+              نقدم من الفنيين المعتمدين جاهز لخدمتكم على مدار 24 ساعة.
             </p>
             {/* Social Links */}
             <div className="flex gap-3">

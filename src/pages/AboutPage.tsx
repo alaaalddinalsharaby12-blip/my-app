@@ -16,7 +16,7 @@ import {
 import { Button } from '@/components/ui/button';
 
 const stats = [
-  { number: '8+', label: 'سنة خبرة', icon: Award },
+  { number: '9+', label: 'سنة خبرة', icon: Award },
   { number: '5000+', label: 'عميل سعيد', icon: Users },
   { number: '10000+', label: 'مشروع منجز', icon: ThumbsUp },
   { number: '50+', label: 'فني معتمد', icon: BadgeCheck },
@@ -88,11 +88,11 @@ export default function AboutPage() {
               من نحن
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-              خبرة 8 عاماً في خدمات السباكة والكهرباء
+              خبرة 9 عاماً في خدمات السباكة والكهرباء
             </h1>
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
               نحن شركة رائدة في مجال الخدمات المنزلية، نقدم حلولاً متكاملة في السباكة والكهرباء 
-              للمنازل والشركات. فريقنا من الفنيين المعتمدين يضمن لك جودة عالية وخدمة متميزة.
+              للمنازل والشركات. نقدم من الفنيين المعتمدين يضمن لك جودة عالية وخدمة متميزة.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
               نؤمن بأن رضا العميل هو المقياس الحقيقي لنجاحنا، لذلك نسعى دائماً لتقديم الأفضل 
@@ -125,7 +125,7 @@ export default function AboutPage() {
                     <Award className="w-7 h-7 text-brand-blue" />
                   </div>
                   <div>
-                    <p className="text-3xl font-bold text-gray-900">8+</p>
+                    <p className="text-3xl font-bold text-gray-900">9+</p>
                     <p className="text-gray-500 text-sm">سنة خبرة</p>
                   </div>
                 </div>
@@ -176,7 +176,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-4">رسالتنا</h2>
             <p className="text-white/80 leading-relaxed">
               تقديم خدمات سباكة وكهرباء عالية الجودة بأسعار تنافسية، 
-              مع ضمان رضا العملاء من خلال فريق محترف ومعتمد.
+              مع ضمان رضا العملاء من خلال عمل محترف ومعتمد.
             </p>
           </div>
         </div>
