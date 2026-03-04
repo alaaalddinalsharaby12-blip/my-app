@@ -52,7 +52,7 @@ export default function Footer() {
             </button>
             <p className="text-gray-400 text-sm mb-6 leading-relaxed">
               نقدم خدمات احترافية في مجال السباكة والكهرباء للمنازل والشركات.
-              نقدم من الفنيين المعتمدين جاهز لخدمتكم على مدار 24 ساعة.
+              نقدم من الفنيين ذات كفائه عالية جاهز لخدمتكم على مدار 24 ساعة.
             </p>
             {/* Social Links */}
             <div className="flex gap-3">
@@ -119,13 +119,13 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@plumbing-electric.com" className="flex items-start gap-3 group">
+                <a href="mailto:maralshrby953@gmail.com" className="flex items-start gap-3 group">
                   <div className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-brand-blue transition-colors">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
                     <p className="text-gray-400 text-xs">بريد إلكتروني</p>
-                    <p className="text-white text-sm">info@plumbing-electric.com</p>
+                    <p className="text-white text-sm">maralshrby953@gmail.com</p>
                   </div>
                 </a>
               </li>

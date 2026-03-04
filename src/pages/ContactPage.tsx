@@ -30,8 +30,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'البريد الإلكتروني',
-    content: 'info@plumbing-electric.com',
-    href: 'mailto:info@plumbing-electric.com',
+    content: 'maralshrby953@gmail.com',
+    href: 'mailto:maralshrby953@gmail.com',
     description: 'نرد خلال 24 ساعة',
     color: 'orange',
   },

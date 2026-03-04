@@ -92,7 +92,7 @@ export default function AboutPage() {
             </h1>
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
               نحن شركة رائدة في مجال الخدمات المنزلية، نقدم حلولاً متكاملة في السباكة والكهرباء 
-              للمنازل والشركات. نقدم من الفنيين المعتمدين يضمن لك جودة عالية وخدمة متميزة.
+              للمنازل والشركات. نقدم من الفنيين ذات كفائه عالية يضمن لك جودة عالية وخدمة متميزة.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
               نؤمن بأن رضا العميل هو المقياس الحقيقي لنجاحنا، لذلك نسعى دائماً لتقديم الأفضل 
@@ -229,7 +229,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <p className="text-gray-400 text-sm">بريد إلكتروني</p>
-                <p className="font-bold">info@plumbing-electric.com</p>
+                <p className="font-bold">maralshrby953@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
