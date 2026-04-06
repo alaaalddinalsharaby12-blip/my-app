@@ -149,27 +149,45 @@ export default function Contact() {
 
   /* Submit */
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    if (!validateForm()) return;
+  if (!validateForm()) return;
 
-    setIsSubmitting(true);
-    setSubmitStatus("idle");
+  setIsSubmitting(true);
+  setSubmitStatus("idle");
 
-    await new Promise((resolve) => setTimeout(resolve, 2000));
+  // 1. تجهيز نص الرسالة بشكل مرتب للواتساب
+  const whatsappMessage = `*طلب صيانة جديد* 🛠️%0A` +
+    `*الاسم:* ${formData.name}%0A` +
+    `*الهاتف:* ${formData.phone}%0A` +
+    `*الخدمة:* ${formData.service}%0A` +
+    `*المشكلة:* ${formData.message}`;
 
-    setIsSubmitting(false);
-    setSubmitStatus("success");
+  // 2. ضع رقم جوالك هنا (يبدأ بـ 966 بدون 0 في البداية)
+  const myPhoneNumber = "966500000000"; 
+  
+  // 3. إنشاء الرابط وفتحه في نافذة جديدة
+  const whatsappUrl = `https://wa.me/${myPhoneNumber}?text=${whatsappMessage}`;
 
-    setFormData({
-      name: "",
-      phone: "",
-      service: "",
-      message: "",
-    });
+  // محاكاة وقت الإرسال البسيط (اختياري)
+  await new Promise((resolve) => setTimeout(resolve, 1000));
 
-    setTimeout(() => setSubmitStatus("idle"), 5000);
-  };
+  // فتح الواتساب
+  window.open(whatsappUrl, "_blank");
+
+  setIsSubmitting(false);
+  setSubmitStatus("success");
+
+  // 4. تصفير الفورم بعد الإرسال
+  setFormData({
+    name: "",
+    phone: "",
+    service: "",
+    message: "",
+  });
+
+  setTimeout(() => setSubmitStatus("idle"), 5000);
+};
 
   const isFormValid = () => {
     return (
