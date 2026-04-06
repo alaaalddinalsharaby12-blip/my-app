@@ -164,7 +164,7 @@ export default function Contact() {
     `*المشكلة:* ${formData.message}`;
 
   // 2. ضع رقم جوالك هنا (يبدأ بـ 966 بدون 0 في البداية)
-  const myPhoneNumber = "966500000000"; 
+  const myPhoneNumber = "966506880495"; 
   
   // 3. إنشاء الرابط وفتحه في نافذة جديدة
   const whatsappUrl = `https://wa.me/${myPhoneNumber}?text=${whatsappMessage}`;
