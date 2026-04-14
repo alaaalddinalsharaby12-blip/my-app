@@ -47,7 +47,7 @@ const contactInfo = [
     icon: MessageCircle,
     title: 'واتساب',
     content: '0506880495',
-    href: 'https://wa.me/0506880495',
+    href: 'https://wa.me/966506880495',
     description: 'تواصل معنا مباشرة',
     color: 'purple',
   },
