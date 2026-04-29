@@ -144,7 +144,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             ))}
 
             {/* Mobile CTA */}
-            <a href="tel:0500123456" className="block mt-4">
+            <a href="tel:0506880495" className="block mt-4">
               <Button className="w-full bg-gradient-to-r from-orange-500 to-red-500 text-white gap-2 shadow-md">
                 <Phone className="w-4 h-4" />
                 <span>اتصل الآن</span>
